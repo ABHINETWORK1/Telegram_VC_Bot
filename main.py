@@ -304,7 +304,7 @@ async def start_queue(message=None):
             )
 
 
-@app.on_message(
+@app.on_message
     filters.command("delqueue")
     & ~filters.private
     & filters.chat(CHAT_ID)
