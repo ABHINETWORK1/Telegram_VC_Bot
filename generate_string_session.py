@@ -1,7 +1,7 @@
 from pyrogram import Client as c
 
 API_ID = input("7649193")
-API_HASH = input("f3a395f2561b2e115658a058fb798860 ")
+API_HASH = input("f3a395f2561b2e115658a058fb798860")
 
 print("+14433530435")
 
